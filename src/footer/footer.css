@@ -1,0 +1,92 @@
+.footer{
+    color:#dadada;
+    display: flex;
+}
+
+.footer-icon{
+    font-size: 14px;
+    font-weight:400;
+    padding:43px;
+    cursor: pointer;
+}
+
+span{
+    margin:10px;
+}
+
+.footer-icon :hover{
+    color:#009EFF;
+}
+
+.footer-Desc{
+    font-size: 12px;
+    margin-left:50px;
+    margin-top: -20px;
+    margin-bottom:50px;
+}
+
+.right-footer{
+    display: flex;
+}
+
+.connect{
+    margin-top:50px;
+    margin-left: 50px;
+    font-weight:500;
+    color: gray;
+}
+
+.fa-square-twitter{
+    margin-left: 50px;
+    font-size: 2.3rem;
+    margin-top: 10px;
+    color:#495C83;
+}
+
+.fa-square-twitter:hover{
+    color:#009EFF;
+}
+
+.fa-square-facebook{
+    font-size: 2.3rem;
+    margin-left: 10px;
+    color:#495C83;
+}
+
+.fa-square-facebook:hover{
+    color:#009EFF;
+
+}
+
+.subsc{
+    margin-top:50px;
+    margin-left: 170px;
+    font-weight:500;
+    color: gray;
+}
+
+.ImageDiv-Footer{
+    margin-left: 170px;
+    margin-top: 10px;
+
+}
+
+.image1Footer{
+    width: 150px;
+    height:40px;
+    border-radius:5px;
+    margin-right: 10px;
+}
+
+.image2Footer{
+    width: 150px;
+    height:40px;
+    border-radius:5px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .footer{
+        display: none;
+    }
+
+}

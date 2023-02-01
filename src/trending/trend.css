@@ -1,0 +1,38 @@
+.latest-Head{
+    color: whitesmoke;
+    padding: 60px;
+    font-size: 20px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .latest-Head{
+        color: whitesmoke;
+        padding:60px;
+        font-size:16px;
+        margin-left: -15%;
+        margin-top:10px;
+    }
+
+    .Trend1{
+        margin-left: -200px;
+    }
+
+    .Trend2{
+        width:100px;
+        position: absolute;
+        left:10px;
+        top: 380px;
+    }
+
+    .Trend3{
+        width:100px;
+        position: absolute;
+        left:170px;
+        top:380px
+    }
+
+    .Trend4{
+        display: none;
+    }
+
+}
